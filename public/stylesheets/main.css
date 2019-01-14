@@ -1,0 +1,53 @@
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+#delete-form {
+    display: inline;
+}
+
+
+.welcome {
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.app-title {
+    font-size: 90px;
+    text-align: center;
+}
+
+.app-description {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.welcome-button {
+    margin: 5% 0 0 86%;
+    display: inline-block;
+}
+
+.welcome-div {
+    margin:10% auto 20% auto;
+    height:50%;
+    width:50%;
+    vertical-align:middle;
+    line-height:200px;
+}
+
+.welcome-body {
+    background-attachment: scroll;
+    background-color: #FFFFFF;
+    background-image: url(https://images.unsplash.com/photo-1516416715870-0e59baaef47a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80);
+    
+}
