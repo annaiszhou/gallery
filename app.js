@@ -14,8 +14,9 @@ var express     = require("express"),
 var commentRoutes    = require("./routes/comments"),
     photoRoutes = require("./routes/photos"),
     indexRoutes      = require("./routes/index")
-    
-mongoose.connect("mongodb://localhost:27017/photo_app", {useNewUrlParser: true});
+
+var url = process.env.DATABASEURL || "mongodb://localhost:27017/photo_app";
+mongoose.connect(url, {useNewUrlParser: true});
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
